@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB9726CA2CEBE1900012CC0D /* CalBiometricRecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726C92CEBE1900012CC0D /* CalBiometricRecipesApp.swift */; };
+		AB9726CC2CEBE1900012CC0D /* RecipesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726CB2CEBE1900012CC0D /* RecipesListScreen.swift */; };
+		AB9726CE2CEBE1910012CC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9726CD2CEBE1910012CC0D /* Assets.xcassets */; };
+		AB9726D12CEBE1910012CC0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9726D02CEBE1910012CC0D /* Preview Assets.xcassets */; };
+		AB9726DF2CEBE56A0012CC0D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726DE2CEBE56A0012CC0D /* Recipe.swift */; };
+		AB9726E12CEBE7840012CC0D /* RestAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726E02CEBE7840012CC0D /* RestAPIRequest.swift */; };
+		AB9726E32CEBECCD0012CC0D /* RecipesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726E22CEBECCD0012CC0D /* RecipesProvider.swift */; };
+		AB9726E72CEBF42E0012CC0D /* RecipesListScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726E62CEBF42E0012CC0D /* RecipesListScreenModel.swift */; };
+		AB9726E92CED15F80012CC0D /* SecureDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726E82CED15F80012CC0D /* SecureDataProvider.swift */; };
+		AB9726EB2CED26EC0012CC0D /* RecipeDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726EA2CED26EC0012CC0D /* RecipeDetailsScreen.swift */; };
+		AB9726ED2CED27130012CC0D /* RecipeDetailsScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9726EC2CED27130012CC0D /* RecipeDetailsScreenModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB9726C62CEBE1900012CC0D /* CalBiometricRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalBiometricRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9726C92CEBE1900012CC0D /* CalBiometricRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalBiometricRecipesApp.swift; sourceTree = "<group>"; };
+		AB9726CB2CEBE1900012CC0D /* RecipesListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListScreen.swift; sourceTree = "<group>"; };
+		AB9726CD2CEBE1910012CC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB9726D02CEBE1910012CC0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB9726DE2CEBE56A0012CC0D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		AB9726E02CEBE7840012CC0D /* RestAPIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPIRequest.swift; sourceTree = "<group>"; };
+		AB9726E22CEBECCD0012CC0D /* RecipesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesProvider.swift; sourceTree = "<group>"; };
+		AB9726E62CEBF42E0012CC0D /* RecipesListScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListScreenModel.swift; sourceTree = "<group>"; };
+		AB9726E82CED15F80012CC0D /* SecureDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureDataProvider.swift; sourceTree = "<group>"; };
+		AB9726EA2CED26EC0012CC0D /* RecipeDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsScreen.swift; sourceTree = "<group>"; };
+		AB9726EC2CED27130012CC0D /* RecipeDetailsScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsScreenModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB9726C32CEBE1900012CC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB9726BD2CEBE1900012CC0D = {
+			isa = PBXGroup;
+			children = (
+				AB9726C82CEBE1900012CC0D /* CalBiometricRecipes */,
+				AB9726C72CEBE1900012CC0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9726C72CEBE1900012CC0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726C62CEBE1900012CC0D /* CalBiometricRecipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9726C82CEBE1900012CC0D /* CalBiometricRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726D72CEBE1B00012CC0D /* Services */,
+				AB9726DC2CEBE2A70012CC0D /* Models */,
+				AB9726DD2CEBE2B10012CC0D /* Screens */,
+				AB9726CD2CEBE1910012CC0D /* Assets.xcassets */,
+				AB9726CF2CEBE1910012CC0D /* Preview Content */,
+			);
+			path = CalBiometricRecipes;
+			sourceTree = "<group>";
+		};
+		AB9726CF2CEBE1910012CC0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726D02CEBE1910012CC0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB9726D72CEBE1B00012CC0D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726DA2CEBE2270012CC0D /* RestApi */,
+				AB9726D92CEBE1FC0012CC0D /* Providers */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AB9726D92CEBE1FC0012CC0D /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726E22CEBECCD0012CC0D /* RecipesProvider.swift */,
+				AB9726E82CED15F80012CC0D /* SecureDataProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		AB9726DA2CEBE2270012CC0D /* RestApi */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726E02CEBE7840012CC0D /* RestAPIRequest.swift */,
+			);
+			path = RestApi;
+			sourceTree = "<group>";
+		};
+		AB9726DC2CEBE2A70012CC0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726DE2CEBE56A0012CC0D /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB9726DD2CEBE2B10012CC0D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726C92CEBE1900012CC0D /* CalBiometricRecipesApp.swift */,
+				AB9726E42CEBF3C40012CC0D /* RecipesList */,
+				AB9726E52CEBF3DC0012CC0D /* RecipeDetails */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AB9726E42CEBF3C40012CC0D /* RecipesList */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726E62CEBF42E0012CC0D /* RecipesListScreenModel.swift */,
+				AB9726CB2CEBE1900012CC0D /* RecipesListScreen.swift */,
+			);
+			path = RecipesList;
+			sourceTree = "<group>";
+		};
+		AB9726E52CEBF3DC0012CC0D /* RecipeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AB9726EC2CED27130012CC0D /* RecipeDetailsScreenModel.swift */,
+				AB9726EA2CED26EC0012CC0D /* RecipeDetailsScreen.swift */,
+			);
+			path = RecipeDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB9726C52CEBE1900012CC0D /* CalBiometricRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9726D42CEBE1910012CC0D /* Build configuration list for PBXNativeTarget "CalBiometricRecipes" */;
+			buildPhases = (
+				AB9726C22CEBE1900012CC0D /* Sources */,
+				AB9726C32CEBE1900012CC0D /* Frameworks */,
+				AB9726C42CEBE1900012CC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalBiometricRecipes;
+			productName = CalBiometricRecipes;
+			productReference = AB9726C62CEBE1900012CC0D /* CalBiometricRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB9726BE2CEBE1900012CC0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					AB9726C52CEBE1900012CC0D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = AB9726C12CEBE1900012CC0D /* Build configuration list for PBXProject "CalBiometricRecipes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB9726BD2CEBE1900012CC0D;
+			productRefGroup = AB9726C72CEBE1900012CC0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB9726C52CEBE1900012CC0D /* CalBiometricRecipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB9726C42CEBE1900012CC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9726D12CEBE1910012CC0D /* Preview Assets.xcassets in Resources */,
+				AB9726CE2CEBE1910012CC0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB9726C22CEBE1900012CC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9726DF2CEBE56A0012CC0D /* Recipe.swift in Sources */,
+				AB9726E72CEBF42E0012CC0D /* RecipesListScreenModel.swift in Sources */,
+				AB9726EB2CED26EC0012CC0D /* RecipeDetailsScreen.swift in Sources */,
+				AB9726E92CED15F80012CC0D /* SecureDataProvider.swift in Sources */,
+				AB9726CC2CEBE1900012CC0D /* RecipesListScreen.swift in Sources */,
+				AB9726E12CEBE7840012CC0D /* RestAPIRequest.swift in Sources */,
+				AB9726ED2CED27130012CC0D /* RecipeDetailsScreenModel.swift in Sources */,
+				AB9726E32CEBECCD0012CC0D /* RecipesProvider.swift in Sources */,
+				AB9726CA2CEBE1900012CC0D /* CalBiometricRecipesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB9726D22CEBE1910012CC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB9726D32CEBE1910012CC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB9726D52CEBE1910012CC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalBiometricRecipes/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NBMT4652B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonathanHoch.CalBiometricRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB9726D62CEBE1910012CC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalBiometricRecipes/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NBMT4652B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonathanHoch.CalBiometricRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB9726C12CEBE1900012CC0D /* Build configuration list for PBXProject "CalBiometricRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9726D22CEBE1910012CC0D /* Debug */,
+				AB9726D32CEBE1910012CC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9726D42CEBE1910012CC0D /* Build configuration list for PBXNativeTarget "CalBiometricRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9726D52CEBE1910012CC0D /* Debug */,
+				AB9726D62CEBE1910012CC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB9726BE2CEBE1900012CC0D /* Project object */;
+}
